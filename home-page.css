@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.TELA-INICIAL {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.TELA-INICIAL .overlap-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1920px;
+  height: 1080px;
+}
+
+.TELA-INICIAL .overlap {
+  position: relative;
+  width: 1922px;
+  height: 1080px;
+}
+
+.TELA-INICIAL .group {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+}
+
+.TELA-INICIAL .rectangle {
+  position: absolute;
+  width: 1920px;
+  height: 102px;
+  top: 0;
+  left: 0;
+  background-color: #31804b;
+}
+
+.TELA-INICIAL .text-wrapper {
+  position: absolute;
+  top: 46px;
+  left: 711px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.TELA-INICIAL .div {
+  position: absolute;
+  top: 46px;
+  left: 1002px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.TELA-INICIAL .text-wrapper-2 {
+  position: absolute;
+  top: 39px;
+  left: 1753px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-INICIAL .text-wrapper-3 {
+  position: absolute;
+  top: 46px;
+  left: 825px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.TELA-INICIAL .rectangle-2 {
+  position: absolute;
+  width: 144px;
+  height: 40px;
+  top: 31px;
+  left: 1724px;
+  border-radius: 60px;
+  border: 2px solid;
+  border-color: #ffffff;
+}
+
+.TELA-INICIAL .tela-menu-inicial {
+  position: absolute;
+  width: 932px;
+  height: 524px;
+  top: 197px;
+  left: 446px;
+  object-fit: cover;
+}
+
+.TELA-INICIAL .tela-SOBRE {
+  position: absolute;
+  width: 430px;
+  height: 354px;
+  top: 280px;
+  left: 1490px;
+  object-fit: cover;
+}
+
+.TELA-INICIAL .gameplay-fase {
+  position: absolute;
+  width: 334px;
+  height: 369px;
+  top: 262px;
+  left: 0;
+  object-fit: cover;
+}
+
+.TELA-INICIAL .vector {
+  position: absolute;
+  width: 46px;
+  height: 81px;
+  top: 411px;
+  left: 346px;
+}
+
+.TELA-INICIAL .img {
+  position: absolute;
+  width: 46px;
+  height: 81px;
+  top: 411px;
+  left: 1432px;
+}
+
+.TELA-INICIAL .footer {
+  position: absolute;
+  width: 1922px;
+  height: 124px;
+  top: 955px;
+  left: 0;
+  background-color: transparent;
+}
+
+.TELA-INICIAL .overlap-group {
+  position: relative;
+  width: 1920px;
+  height: 124px;
+  background-color: #515ea7;
+}
+
+.TELA-INICIAL .text-wrapper-4 {
+  position: absolute;
+  width: 315px;
+  top: 77px;
+  left: 831px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-INICIAL .vector-2 {
+  position: absolute;
+  width: 26px;
+  height: 19px;
+  top: 998px;
+  left: 958px;
+}
+
+.TELA-INICIAL .vector-3 {
+  position: absolute;
+  width: 25px;
+  height: 22px;
+  top: 996px;
+  left: 928px;
+}
+
+.TELA-INICIAL .vector-4 {
+  position: absolute;
+  width: 25px;
+  height: 23px;
+  top: 996px;
+  left: 899px;
+}
+
+.TELA-INICIAL .logo-bora-cat {
+  position: absolute;
+  width: 179px;
+  height: 111px;
+  top: 0;
+  left: 228px;
+  object-fit: cover;
+}
+  
+  .content {
+    height: 700px;
+    width: 1235px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+  }
+
+  .bar {
+    width: 70px;
+    height: 17px;
+    border: 2px solid white;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .6s;
+  }
+
+  .bar:hover {
+    background-color: rgba(255, 255, 255, 0.315);
+  }
+
+  input {
+    display: none;
+  }
+
+  .slides {
+    display: flex;
+    width: 500%;
+    height: 100%;
+  }
+
+  .slide {
+    width: 20%;
+    transition: .6s;
+  }
+
+  .slide img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #slide1:checked ~ .s1 {
+    margin-left: 0;
+  }
+
+  #slide2:checked ~ .s1 {
+    margin-left: -20%;
+  }
+
+  #slide3:checked ~ .s1 {
+    margin-left: -40%;
+  }
+
+  .TELA-INICIAL .text-wrapper a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .TELA-INICIAL .text-wrapper-2 a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .TELA-INICIAL .text-wrapper-3 a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .TELA-INICIAL .div a {
+    text-decoration: none;
+    color: white;
+  }

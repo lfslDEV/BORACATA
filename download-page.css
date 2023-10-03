@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+.TELA-DOWNLOAD {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  text-decoration: none;
+}
+
+.TELA-DOWNLOAD .overlap-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1920px;
+  height: 1080px;
+  text-decoration: none;
+}
+
+.TELA-DOWNLOAD .text-wrapper-2 a {
+  text-decoration: none;
+  color: #31804b;
+}
+
+.TELA-DOWNLOAD .text-wrapper a {
+  text-decoration: none;
+  color: white;
+}
+
+.TELA-DOWNLOAD .overlap {
+  position: relative;
+  width: 1922px;
+  height: 1080px;
+}
+
+.TELA-DOWNLOAD .group {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+}
+
+.TELA-DOWNLOAD .rectangle {
+  position: absolute;
+  width: 1920px;
+  height: 102px;
+  top: 0;
+  left: 0;
+  background-color: #31804b;
+}
+
+.TELA-DOWNLOAD .logo-bora-cat {
+  width: 805px;
+  height: 558px;
+  top: 264px;
+  left: 77px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.TELA-DOWNLOAD .navegue-pelo-quintal {
+  position: absolute;
+  width: 608px;
+  top: 446px;
+  left: 1057px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-DOWNLOAD .div {
+  position: absolute;
+  width: 264px;
+  height: 72px;
+  top: 672px;
+  left: 1057px;
+  background-color: #31804b;
+  border-radius: 11px;
+}
+
+.TELA-DOWNLOAD .rectangle-2 {
+  position: absolute;
+  width: 270px;
+  height: 78px;
+  top: 669px;
+  left: 1347px;
+  border-radius: 11px;
+  border: 3px solid;
+  border-color: #31804b;
+}
+
+.TELA-DOWNLOAD .text-wrapper {
+  position: absolute;
+  top: 696px;
+  left: 1134px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.TELA-DOWNLOAD .text-wrapper-2 {
+  position: absolute;
+  display: flex;
+  top: 696px;
+  left: 1449px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #31804b;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.TELA-DOWNLOAD .text-wrapper-3 {
+  position: absolute;
+  top: 39px;
+  left: 1753px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-DOWNLOAD .rectangle-3 {
+  position: absolute;
+  width: 144px;
+  height: 40px;
+  top: 31px;
+  left: 1724px;
+  border-radius: 60px;
+  border: 2px solid;
+  border-color: #ffffff;
+}
+
+.TELA-DOWNLOAD .img {
+  width: 179px;
+  height: 111px;
+  top: 0;
+  left: 228px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.TELA-DOWNLOAD .text-wrapper-4 {
+  position: absolute;
+  top: 367px;
+  left: 1061px;
+  font-family: "Inter", Helvetica;
+  font-weight: 900;
+  color: #31804b;
+  font-size: 45px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.TELA-DOWNLOAD .text-wrapper-5 {
+  position: absolute;
+  top: 46px;
+  left: 765px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-DOWNLOAD .text-wrapper-6 {
+  position: absolute;
+  top: 46px;
+  left: 1056px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-DOWNLOAD .text-wrapper-7 {
+  position: absolute;
+  top: 46px;
+  left: 879px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-DOWNLOAD .footer {
+  position: absolute;
+  width: 1922px;
+  height: 124px;
+  top: 956px;
+  left: 0;
+  background-color: transparent;
+}
+
+.TELA-DOWNLOAD .overlap-group {
+  position: relative;
+  width: 1920px;
+  height: 124px;
+  background-color: #515ea7;
+}
+
+.TELA-DOWNLOAD .vector {
+  position: absolute;
+  width: 39px;
+  height: 32px;
+  top: 27px;
+  left: 950px;
+}
+
+.TELA-DOWNLOAD .vector-2 {
+  height: 37px;
+  left: 906px;
+  position: absolute;
+  width: 38px;
+  top: 24px;
+}
+
+.TELA-DOWNLOAD .vector-3 {
+  height: 38px;
+  left: 862px;
+  position: absolute;
+  width: 38px;
+  top: 24px;
+}
+
+.TELA-DOWNLOAD .text-wrapper-8 {
+  position: absolute;
+  width: 315px;
+  top: 77px;
+  left: 831px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-DOWNLOAD .text-wrapper-3 a {
+  text-decoration: none;
+  color: white;
+}
+
+.TELA-DOWNLOAD .text-wrapper-5 a {
+  text-decoration: none;
+  color: white;
+}
+
+.TELA-DOWNLOAD .text-wrapper-6 a {
+  text-decoration: none;
+  color: white;
+}
+
+.TELA-DOWNLOAD .text-wrapper-7 a {
+  text-decoration: none;
+  color: white;
+}

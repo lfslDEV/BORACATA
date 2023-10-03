@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.TELA-GUIA {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.TELA-GUIA .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1920px;
+  height: 3893px;
+  position: relative;
+}
+
+.TELA-GUIA .overlap {
+  position: absolute;
+  width: 1920px;
+  height: 3235px;
+  top: 0;
+  left: 0;
+}
+
+.TELA-GUIA .group {
+  width: 1714px;
+  height: 1324px;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.TELA-GUIA .img {
+  width: 1920px;
+  height: 2492px;
+  top: 599px;
+  position: absolute;
+  left: 0;
+}
+
+.TELA-GUIA .rectangle {
+  position: absolute;
+  width: 1920px;
+  height: 102px;
+  top: 0;
+  left: 0;
+  background-color: #31804b;
+}
+
+.TELA-GUIA .instruoes {
+  position: absolute;
+  width: 703px;
+  height: 410px;
+  top: 192px;
+  left: 178px;
+  object-fit: cover;
+}
+
+.TELA-GUIA .text-wrapper {
+  position: absolute;
+  width: 664px;
+  top: 245px;
+  left: 914px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-GUIA .p {
+  width: 669px;
+  top: 675px;
+  left: 914px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-GUIA .text-wrapper-2 {
+  width: 671px;
+  top: 1123px;
+  left: 917px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-GUIA .text-wrapper-3 {
+  width: 676px;
+  top: 1553px;
+  left: 917px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-GUIA .text-wrapper-4 {
+  width: 683px;
+  top: 1983px;
+  left: 905px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-GUIA .text-wrapper-5 {
+  width: 688px;
+  top: 2413px;
+  left: 905px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-GUIA .text-wrapper-6 {
+  width: 708px;
+  top: 2863px;
+  left: 890px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-GUIA .tela-de-pausa {
+  position: absolute;
+  width: 706px;
+  height: 406px;
+  top: 633px;
+  left: 168px;
+  object-fit: cover;
+}
+
+.TELA-GUIA .tela-de-pausa-papel {
+  top: 1515px;
+  position: absolute;
+  width: 706px;
+  height: 406px;
+  left: 159px;
+  object-fit: cover;
+}
+
+.TELA-GUIA .tela-de-pausa-metal {
+  top: 1074px;
+  position: absolute;
+  width: 706px;
+  height: 406px;
+  left: 159px;
+  object-fit: cover;
+}
+
+.TELA-GUIA .tela-de-pausa-comum {
+  top: 1947px;
+  position: absolute;
+  width: 706px;
+  height: 406px;
+  left: 159px;
+  object-fit: cover;
+}
+
+.TELA-GUIA .tela-de-pausa-vidro {
+  top: 2388px;
+  position: absolute;
+  width: 706px;
+  height: 406px;
+  left: 159px;
+  object-fit: cover;
+}
+
+.TELA-GUIA .tela-de-pausa-2 {
+  top: 2829px;
+  position: absolute;
+  width: 706px;
+  height: 406px;
+  left: 159px;
+  object-fit: cover;
+}
+
+.TELA-GUIA .text-wrapper-7 {
+  position: absolute;
+  top: 46px;
+  left: 765px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-GUIA .text-wrapper-8 {
+  position: absolute;
+  top: 46px;
+  left: 1056px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-GUIA .text-wrapper-9 {
+  position: absolute;
+  top: 39px;
+  left: 1753px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-GUIA .text-wrapper-10 {
+  position: absolute;
+  top: 46px;
+  left: 879px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-GUIA .rectangle-2 {
+  position: absolute;
+  width: 144px;
+  height: 40px;
+  top: 31px;
+  left: 1724px;
+  border-radius: 60px;
+  border: 2px solid;
+  border-color: #ffffff;
+}
+
+.TELA-GUIA .logo-bora-cat {
+  position: absolute;
+  width: 179px;
+  height: 111px;
+  top: 0;
+  left: 228px;
+  object-fit: cover;
+}
+
+.TELA-GUIA .text-wrapper-11 {
+  width: 704px;
+  top: 3359px;
+  left: 894px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-GUIA .tela-SOBRE {
+  position: absolute;
+  width: 706px;
+  height: 406px;
+  top: 3311px;
+  left: 155px;
+  object-fit: cover;
+}
+
+.TELA-GUIA .footer {
+  position: absolute;
+  width: 1922px;
+  height: 124px;
+  top: 3769px;
+  left: 0;
+  background-color: transparent;
+}
+
+.TELA-GUIA .overlap-group {
+  position: relative;
+  width: 1920px;
+  height: 124px;
+  background-color: #515ea7;
+}
+
+.TELA-GUIA .vector {
+  position: absolute;
+  width: 39px;
+  height: 32px;
+  top: 27px;
+  left: 950px;
+}
+
+.TELA-GUIA .vector-2 {
+  height: 37px;
+  left: 906px;
+  position: absolute;
+  width: 38px;
+  top: 24px;
+}
+
+.TELA-GUIA .vector-3 {
+  height: 38px;
+  left: 862px;
+  position: absolute;
+  width: 38px;
+  top: 24px;
+}
+
+.TELA-GUIA .text-wrapper-12 {
+  position: absolute;
+  width: 315px;
+  top: 77px;
+  left: 831px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-GUIA .text-wrapper-7 a {
+  text-decoration: none;
+  color: white;
+}
+
+.TELA-GUIA .text-wrapper-8 a {
+  text-decoration: none;
+  color: white;
+}
+
+.TELA-GUIA .text-wrapper-9 a {
+  text-decoration: none;
+  color: white;
+}
+
+.TELA-GUIA .text-wrapper-10 a {
+  text-decoration: none;
+  color: white;
+}

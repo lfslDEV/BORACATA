@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.TELA-INFORMAES {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.TELA-INFORMAES .overlap-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1920px;
+  height: 1080px;
+}
+
+.TELA-INFORMAES .overlap {
+  position: relative;
+  width: 1922px;
+  height: 1080px;
+}
+
+.TELA-INFORMAES .group {
+  position: absolute;
+  width: 1714px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+}
+
+.TELA-INFORMAES .rectangle {
+  position: absolute;
+  width: 1920px;
+  height: 102px;
+  top: 0;
+  left: 0;
+  background-color: #31804b;
+}
+
+.TELA-INFORMAES .logo-bora-cat {
+  width: 986px;
+  height: 661px;
+  top: 202px;
+  left: 61px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.TELA-INFORMAES .ESTE-PROJETO-FOI {
+  position: absolute;
+  width: 550px;
+  top: 274px;
+  left: 1142px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-INFORMAES .update {
+  position: absolute;
+  width: 532px;
+  top: 595px;
+  left: 1142px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-INFORMAES .text-wrapper {
+  position: absolute;
+  top: 39px;
+  left: 1753px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-INFORMAES .div {
+  position: absolute;
+  width: 144px;
+  height: 40px;
+  top: 31px;
+  left: 1724px;
+  border-radius: 60px;
+  border: 2px solid;
+  border-color: #ffffff;
+}
+
+.TELA-INFORMAES .img {
+  width: 179px;
+  height: 111px;
+  top: 0;
+  left: 228px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.TELA-INFORMAES .text-wrapper-2 {
+  position: absolute;
+  top: 46px;
+  left: 765px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-INFORMAES .text-wrapper-3 {
+  position: absolute;
+  top: 46px;
+  left: 1056px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-INFORMAES .text-wrapper-4 {
+  position: absolute;
+  top: 46px;
+  left: 879px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-INFORMAES .footer {
+  position: absolute;
+  width: 1922px;
+  height: 124px;
+  top: 956px;
+  left: 0;
+  background-color: transparent;
+}
+
+.TELA-INFORMAES .overlap-group {
+  position: relative;
+  width: 1920px;
+  height: 124px;
+  background-color: #515ea7;
+}
+
+.TELA-INFORMAES .vector {
+  position: absolute;
+  width: 39px;
+  height: 32px;
+  top: 27px;
+  left: 950px;
+}
+
+.TELA-INFORMAES .vector-2 {
+  height: 37px;
+  left: 906px;
+  position: absolute;
+  width: 38px;
+  top: 24px;
+}
+
+.TELA-INFORMAES .vector-3 {
+  height: 38px;
+  left: 862px;
+  position: absolute;
+  width: 38px;
+  top: 24px;
+}
+
+.TELA-INFORMAES .text-wrapper-5 {
+  position: absolute;
+  width: 315px;
+  top: 77px;
+  left: 831px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.TELA-INFORMAES .text-wrapper a {
+  text-decoration: none;
+  color: white;
+}
+
+.TELA-INFORMAES .text-wrapper-2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.TELA-INFORMAES .text-wrapper-3 a {
+  text-decoration: none;
+  color: white;
+}
+
+.TELA-INFORMAES .text-wrapper-4 a {
+  text-decoration: none;
+  color: white;
+}
